@@ -1,6 +1,4 @@
-# Crawler
-
-Course Slides Crawler and Organizer
+# Course Slides Crawler and Organizer
 
 A small Python toolkit for downloading and reorganizing course materials from Moodle and other course websites.
 
