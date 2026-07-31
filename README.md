@@ -80,11 +80,17 @@ Generates organize_manifest.csv.
 
 Repository Structure
 
+```text
 course-slides-toolkit/
+│
 ├── course_slides_crawler.py
+│
 ├── organize_course_slides.py
+│
 ├── README.md
+│
 └── .gitignore
+```
 
 Do not commit downloaded course files, browser profiles, authentication data, or generated manifests.
 
@@ -450,12 +456,19 @@ Output Files
 
 The crawler creates:
 
+```text
 Master_Slides/
+│
 ├── download_manifest.csv
+│
 └── files/
+    │
     ├── Course Page Title A/
+    │
     ├── Course Page Title B/
+    │
     └── ...
+```
 
 download_manifest.csv records:
 
@@ -481,10 +494,17 @@ HTTP status.
 
 The organizer creates:
 
+```text
 Organized_Courses/
+│
 ├── COMP0249/
+│
 ├── COMP0123/
+│
+├── COMP0158/
+│
 └── organize_manifest.csv
+```
 
 Troubleshooting
 
