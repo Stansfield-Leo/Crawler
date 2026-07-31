@@ -253,11 +253,14 @@ py .\organize_course_slides.py ^
 
 Example result:
 
+```text
 Organized_Courses/
+│
 ├── COMP0249/
 ├── COMP0123/
 ├── COMP0158/
 └── organize_manifest.csv
+```
 
 By default, assessment-related files are excluded and the original downloaded files remain unchanged.
 
@@ -285,12 +288,16 @@ py .\organize_course_slides.py ^
 
 Example:
 
+```text
 Organized_Courses/
+│
 └── COMP0249/
+    │
     ├── Week_01/
     ├── Week_02/
     ├── Week_03/
     └── Other/
+```
 
 8. Keep Only PowerPoint Files
 
